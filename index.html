@@ -1,3 +1,33 @@
+<script data-ad-client="ca-pub-3557254156070422" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+<html>
+<body>
+
+<h1>Calculadora</h1>
+<p>Calcula</p>
+
+</body>
+</html>
+
+<input id="a1" type="text" />
+<input id="a2" type="text" onblur="calculate()"  />
+<input id="a3" type="text" name="total_amt" />
+<td><input type="button" value="Calcular" onclick="dis('1')"/> </td>
+
+<script> 
+
+function dis(val) 
+{ 
+    var resources = document.getElementById('a1').value;
+    var minutes = document.getElementById('a2').value; 
+    document.getElementById('a3').value = parseInt(resources)*parseInt(minutes);
+
+} 
+
+
+</script>
+
 
 
 <html>
@@ -18,6 +48,8 @@
 </head>
 
 <body>
+
+	
 	<div style="width:75%;">
 		<canvas id="canvas"></canvas>
 	</div>
@@ -28,6 +60,8 @@
 	<button id="removeDataset">Remove Dataset</button>
 	<button id="addData">Add Data</button>
 	<button id="removeData">Remove Data</button>
+
+
 	<script>
 		var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 		var config = {
